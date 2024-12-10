@@ -1,0 +1,234 @@
+.profile-basic-details{
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px 16px;
+   
+}
+  .profile-basic-details h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .profile-basic-details h5{
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: var(--text-semi-color);
+  }
+  .profile-basic-details h4{
+    font-size: 18px;
+    /* margin-bottom: 4px; */
+    color: var(--text-color);
+  }
+  .profile-basic-details p{
+    font-size: 12px;
+    color: var(--text-semi-color);
+    margin-bottom: 4px;
+  }
+  .profile-basic-details span{
+    font-size: 14px;
+    color: var(--text-color);
+  }
+ .profile-vertical-line{
+    border: 1px solid var(--border-color);
+ }
+ .profile-settings-options {
+    border: 1px solid var(--border-color);
+    padding: 16px 10px;
+    border-radius: 12px;
+    position: sticky;
+    top: 100px;
+  }
+  
+  .profile-settings-items {
+    font-size: 16px;
+    color: var(--text-semi-color);
+    padding: 10px;
+  } 
+  .profile-settings-items:hover,
+  .profile-settings-items.profile-active {
+    background-color: var(--maroon-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .profile-details-column{
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px 16px;
+  }
+  .resume-upload-drag-icon {
+    background-color: var(--white-color);
+    border-radius: 25px;
+    padding: 8px 16px;
+    color: var(--maroon-color);
+    font-size: 20px;
+    border: 1px solid var(--maroon-color);
+    margin-bottom: 10px;
+}
+.resume-upload-dragger.ant-upload-wrapper .ant-upload-drag {
+background-color: var(--white-color);
+}
+.profile-skills{
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+h4.profile-add-details-heading{
+  font-size: 20px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+h4.profile-add-details-heading:hover{
+  font-size: 20px;
+  color: var(--maroon-color);
+  cursor: pointer;
+}
+.add-profile-education{
+  background-color: transparent;
+  color: var(--maroon-color);
+  border: none;
+  font-size: 16px;
+}
+.profile-basic-details ul{
+  list-style: disc;
+}
+.profile-basic-details ul li{
+font-size: 16px;
+}
+.profile-basic-details a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+.add-profile-form.ant-form-item .ant-form-item-label >label{
+font-size: 16px;
+font-weight: 500;
+}
+.edit-profile-form p{
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: var(--text-semi-color);
+  /* margin-left: 10px; */
+}
+.profile-discard-button{
+  padding: 6px 32px;
+  border-radius: 8px;
+  border: 1px solid var(--maroon-color);
+  color: var(--maroon-color);
+  background-color: var(--white-color);
+  font-size: 20px;
+}
+.profile-save-button{
+  padding: 6px 32px;
+  border-radius: 8px;
+  border: 1px solid var(--maroon-color);
+  color: var(--white-color);
+  background-color: var(--maroon-color);
+  font-size: 20px;
+}
+.add-profile-form .ant-radio-wrapper .ant-radio-checked .ant-radio-inner{
+  border-color: var(--maroon-color);
+  background-color: var(--maroon-color);
+}
+.my-skills-tag{
+  background-color: var(--white-color);
+  padding: 8px 12px;
+  color: var(--text-color);
+  font-size: 12px;
+  border-radius: 4px;
+  margin: 4px;
+}
+.add-skills-form h4{
+  font-size: 20px;
+}
+.add-skills-form h5{
+  font-size: 16px;
+}
+.delete-certification-button{
+  background-color: transparent;
+  color: var(--maroon-color);
+  border: none;
+  font-size: 20px;
+}
+.profile-social-media-form.ant-form-item{
+  margin-bottom: 0;
+}
+.profile-icon-section {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid var(--maroon-color);
+    padding: 5px;
+}
+
+.edit-icon-button {
+  border: none;
+  color: var(--black-color);
+  cursor: pointer;
+  background: var(--white-color);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  left: -25px;
+  top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.edit-icon-button:hover {
+  color: var(--maroon-color);
+  background: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.social-media-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; 
+
+}
+.social-media-item {
+  display: flex;
+  align-items: center;
+  gap:2px;
+  justify-content: start;
+}
+.social-media-item a {
+  text-decoration: none;
+  color: var(--text-color);
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  max-width: 280px; 
+  display: block;
+}
+.profile-languages-table.ant-table-wrapper .ant-table-thead >tr>th{
+  background: var(--white-color);
+  border-bottom: none;
+}
+.profile-languages-table .ant-table-container{
+  overflow-x: hidden !important;
+}
+.profile-languages-table .ant-table-tbody >tr >td{
+  border-bottom: none;
+}
+
+.payroll-table.ant-table-wrapper .ant-table-thead >tr>th{
+  background: var(--white-color);
+  border-bottom: none;
+}
+.payroll-table .ant-table-container{
+  overflow-x: hidden !important;
+}
+.payroll-table .ant-table-tbody >tr >td{
+  border-bottom: none;
+}

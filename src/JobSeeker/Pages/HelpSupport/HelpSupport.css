@@ -1,0 +1,164 @@
+.faq-collapse {
+    width: 100%;
+  }
+  
+  .faq-panel {
+    margin-bottom: 16px;
+  }
+  
+  .faq-collapse .ant-collapse-borderless {
+    background-color: var(--white-color);
+  }
+  
+  .faq-question {
+    color: var(--text-semi-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "DM Sans";
+  }
+  
+  .faq-question.expanded {
+    color: var(--maroon-color);
+  }
+  
+  .faq-number {
+    margin-right: 10px;
+    color: var(--text-semi-color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "DM Sans";
+  }
+  
+  .faq-number.expanded {
+    color: var(--maroon-color);
+  }
+  
+  .faq-collapse .ant-collapse .ant-collapse-content {
+    color: var(--text-semi-color);
+    font-size: 16px;
+    font-family: "Dm Sans";
+    font-weight: 400;
+    letter-spacing: -0.1px;
+  }
+  
+  .faq-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black-color);
+    letter-spacing: -0.1px;
+  }
+  
+  .tabs {
+    font: 24px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    margin-right: 1rem;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: var(--white-color);
+  }
+  
+  .tabs.active {
+    color: var(--maroon-color);
+    border-bottom-color: var(--maroon-color);
+    font-weight: 600;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: var(--white-color);
+  }
+  
+  .faq-plus-icon {
+    background-color: var(--nav-color);
+    color: var(--maroon-color);
+    border-radius: 50%;
+  }
+  
+  .help-chat-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--white-color);
+    height: 70vh;
+  }
+  
+  .help-messages-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .helpMessage {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-break: break-word;
+  }
+  
+  .helpMessage.user {
+    background-color: var(--nav-color);
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 14px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  
+  .helpMessage.bot {
+    background-color: var(--background-color);
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+    font-size: 14px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  
+  .help-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 5px;
+  }
+  
+  .help-message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+  }
+  
+  .help-send-button {
+    background-color: transparent;
+    border: none;
+    color: var(--maroon-color);
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .help-edit-button {
+    background-color: transparent;
+    border: none;
+    color: var(--maroon-color);
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: -40px;
+  }

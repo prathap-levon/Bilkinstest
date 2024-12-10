@@ -1,0 +1,164 @@
+.jobseeker-settings-banner{
+    background-image: url("../../Assets//Images/settingsBg.png");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    padding: 25px;
+}
+.jobseeker-settings-banner h3{
+    font-size: 20px;
+    color: var(--white-color);
+}
+.jobseeker-settings-banner h5{
+    font-size: 16px;
+    color: var(--white-color);
+    margin-top: 12px;
+}
+.jobseeker-settings-section h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .jobseeker-settings-options {
+    position: sticky;
+    top: 100px;
+  }
+  
+  .jobseeker-settings-items {
+    font-size: 16px;
+    color: var(--text-semi-color);
+    padding: 12px;
+  }
+  
+  .jobseeker-settings-items:hover,
+  .jobseeker-settings-items.jobseeker-active {
+    background-color: var(--white-color);
+    border-left: 2px solid var(--maroon-color);
+    color: var(--maroon-color);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .job-preferences-section h4{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .job-preferences-section h5{
+    font-size: 14px;
+    color: var(--text-semi-color);
+  }
+  .job-preferences-settings{
+    border: 1px solid var(--border-color);
+    padding: 32px 24px;
+    border-radius: 12px;
+  }
+  .job-preferences-settings h4{
+    font-size: 16px;
+  }
+  .job-preferences-settings p{
+    font-size: 14px;
+    color: var(--text-semi-color);
+  }
+ 
+  .job-preference-toggle-btn {
+    padding: 10px 20px;
+   background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+  }
+  
+  .job-preference-toggle-btn.job-preference-active {
+    background-color: var(--maroon-color);
+    color: white;
+  }
+  
+  .job-preference-toggle-btn.job-preference-inactive {
+    background-color: var(--maroon-color);
+    color: white;
+  }
+  
+  .job-preference-buttons {
+    background-color: var(--input-color);
+    padding: 8px 6px;
+    border-radius: 14px;
+  }
+
+  .job-preference-form-input.ant-input-outlined {
+    border-bottom: 1px solid var(--border-color);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+}
+.job-preference-form-input.ant-input-outlined:focus-within {
+    border-color: none;
+    box-shadow: none;
+}
+.job-preference-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--maroon-color);
+    border-color: var(--maroon-color);
+}
+.jobseeker-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--maroon-color);
+    border-color: var(--maroon-color);
+}
+.account-settings-section h4{
+font-size: 16px;
+font-weight: 600;
+}
+.account-settings-section h5{
+    font-size: 14px;
+    color: var(--text-semi-color);
+}
+.jobseeker-discard-button{
+    padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--maroon-color);
+  color: var(--maroon-color);
+  background-color: var(--white-color);
+  font-size: 18px;
+}
+.notification-setting-checkbox .ant-checkbox{
+    margin-top: -40px;
+}
+.notification-setting-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--maroon-color);
+    border-color: var(--maroon-color);
+}
+.job-preference-form-select .ant-select-selector {
+  border-bottom: 1px solid #d9d9d9 !important;
+  background: #ffffff;
+  border-radius: 0;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.job-preference-form-select .ant-select-focused.ant-select-outlined.ant-select-selector {
+border-color: none !important;
+box-shadow: none !important;
+border-radius: 0;
+}
+.ant-slider .ant-slider-handle::after {
+  box-shadow: 0 0 0 2px var(--maroon-color);
+}
+.job-preference-slider.ant-slider .ant-slider-track {
+  background-color: var(--maroon-color);
+}
+.job-preference-slider.ant-slider .ant-slider-handle:hover::after, .ant-slider .ant-slider-handle:active::after, .ant-slider .ant-slider-handle:focus::after {
+  box-shadow: 0 0 0 4px var(--maroon-color);
+}
+.account-settings-otp-modal h5{
+  font-size: 18px;
+  color: var(--text-color);
+}
+.account-settings-otp-modal p{
+  font-size: 14px;
+  color: var(--text-semi-color);
+}
+@media (max-width: 768px) {
+  .jobseeker-settings-banner{
+    height: 200px;
+  }
+}

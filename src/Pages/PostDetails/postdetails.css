@@ -1,0 +1,31 @@
+.btn-show--more{
+    background: #CE1B28;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    border: 0;
+}
+
+.btn-show--more:hover{
+    background: #eee;
+    color: #CE1B28;
+}
+
+.btn-hide--more {
+    background: #1b1ece;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    border: 0;
+}
+
+.btn-hide--more:hover{
+    background: #eee;
+    color: #1b1ece;
+}

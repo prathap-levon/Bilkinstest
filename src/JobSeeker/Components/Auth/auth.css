@@ -1,0 +1,189 @@
+.job-seeker-signup-section{
+    height: 100vh;
+}
+.job-seeker-register-section{
+  height: 100vh;
+}
+.job-seeker-signup-right {
+  background-image: url("../../Assets/Images/loginbg.png");
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.job-seeker-signup-left {
+  padding: 20px;
+  background-color: #fff;
+  align-items: center;
+  margin: auto;
+}
+.job-seeker-signup-left h2 {
+  font-size: 35px;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+}
+.job-seeker-signup-left p {
+  font-size: 16px;
+  color: #848484;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+}
+.job-seeker-signup-left span {
+  font-size: 16px;
+  color: #ce1b28;
+  font-weight: 500;
+  cursor: pointer;
+}
+.job-seeker-signup-right img {
+  width: 500px;
+  height: 500px;
+}
+.signup-select.ant-input-outlined{
+    background: #f5f7f9;
+    padding: 8px;
+}
+.signup-select .ant-select-selector{
+    background: #f5f7f9 !important;
+    padding: 8px !important;
+    height: 25px;
+}
+.sign-up-input.ant-form-item .ant-form-item-label >label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sign-up-input.ant-form-item{
+    margin-bottom: 10px;
+}
+.jobseeker-sign-up-button{
+    background-color: #ce1b28;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.or-separator {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 4px;
+    justify-content: center;
+  }
+  
+  .signup-horizontal-line {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #848484;
+  }
+  .signup-icons{
+    background-color: #fbe5e5;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .signup-icons img{
+    width: 30px;
+    height: 30px;
+  }
+  .job-seeker-login-logo img{
+    width: 230px;
+    height: 60px;
+  }
+  .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ce1b28;
+}
+
+.jobseeker-forget-password {
+    font-size: 14px;
+    color: #ce1b28;
+    text-decoration: none;
+}
+
+.remember-me-switch.ant-switch.ant-switch-checked {
+    background: #ce1b28;
+}
+.remember-me-switch.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+    background: #ce1b28;
+}
+.job-seeker-login-right {
+    background-image: url("../../Assets/Images/loginbg.png");
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .job-seeker-login-right img {
+    width: 500px;
+    height: 500px;
+    border-radius: 32px;
+  }
+  .otp-input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #848484;
+    border-radius: 10px;
+    margin: 0 8px;
+    color: #000;
+    background-color: transparent;
+    caret-color: transparent;
+}
+
+.otp-input:focus {
+    outline: none;
+    border-color: #848484;
+    caret-color: #fff;
+}
+
+.resend-info {
+    text-align: center;
+}
+
+.resend-info p {
+    color: #848484;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.resend-info span {
+    color: #848484;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.resend-link {
+    color: #ce1b28 !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.spinner {
+  border: 2px solid rgba(0, 0, 0, 0.01);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border-left-color: var(--white-color);
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+@media(max-width:768px){
+  .job-seeker-signup-section {
+    padding-top: 200px;
+  }
+}

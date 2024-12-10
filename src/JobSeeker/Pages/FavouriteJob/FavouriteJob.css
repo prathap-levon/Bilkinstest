@@ -1,0 +1,102 @@
+.favourite-jobs-section h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.favourite-job-card {
+    border: 1px solid var(--border-color);
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.favourite-job-button {
+    background-color: var(--nav-color);
+    border-radius: 4px;
+    border: none;
+    color: var(--maroon-color);
+    display: flex;
+    gap: 10px;
+    background-image: url("../../Assets/Images/on-going-button-bg.png");
+    background-position: left;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    padding: 6px 18px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.favourite-vertical-line {
+    border: 1px solid var(--maroon-color);
+}
+
+.favourite-job-card h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.favourite-job-card h5 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+.favourite-job-card h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-semi-color);
+    margin-bottom: 0;
+}
+
+.favourite-job-card p {
+    font-size: 14px;
+    color: var(--text-semi-color);
+}
+.favourite-text-underline{
+    border: 1px solid var(--border-color);
+  }
+  .pagination-div h5 {
+    font-size: 16px;
+    color: var(--text-semi-color);
+}
+
+.ant-pagination .ant-pagination-item-active {
+    border-color: var(--maroon-color);
+}
+.no-favourites-job-div img{
+    width: 350px;
+    height: 350px;
+}
+.no-favourites-job-div p{
+    text-align: center;
+    color: var(--text-semi-color);
+    font-size: 16px;
+}
+.no-favourites-job-div h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.search-input-table {
+    border: 1px solid var(--maroon-color) !important;
+    border-radius: 20px !important;
+    color: var(--text-semi-color) !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 6px 12px !important;
+    width: 250px;
+}
+.favourite-job-list-section h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+@media (max-width:768px){
+    .search-input-table {
+        width: 200px;
+    }
+}

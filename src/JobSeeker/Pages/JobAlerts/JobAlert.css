@@ -1,0 +1,174 @@
+.job-overview-joblist{
+    border-top: 1px solid var(--border-color);
+    padding: 10px;
+    height: 72vh;
+    overflow-y: auto;
+
+}
+.job-overview-joblist::-webkit-scrollbar{
+    width: 4px;
+}
+.job-overview-joblist::-webkit-scrollbar-thumb {
+    background-color: var(--maroon-color);
+}
+
+.job-overview-joblist::-webkit-scrollbar-track {
+    background-color: var(--border-color);
+}
+.job-overview-right-banner img{
+    width: 100%;
+    height: 150px;
+    border-radius: 4px;
+    position: relative;
+}
+.job-overview-right-card{
+    background-color: var(--white-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.job-overview-hospital-image{
+    position: absolute;
+   margin-top: -40px;
+   margin-left: 20px;
+}
+.job-overview-right-card h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.job-overview-right-card p{
+    font-size: 12px;
+    color: var(--text-semi-color);
+    margin-bottom: 0;
+}
+.icon-red{
+    color: var(--maroon-color);
+}
+.job-overview-page-text {
+    margin-top: 2rem;
+    position: relative;   
+  }
+  
+  .job-overview-page-text span {
+    color: #ce1b28;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .job-overview-page-text h1 {
+    color: #ce1b28;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+  }
+  
+  .job-overview-page-text h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .job-overview-page-text p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 100 !important;
+    letter-spacing: -0.1px;
+    line-height: normal;
+  }
+  .job-overview-details-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 2px solid var(--nav-color);
+  }
+  
+  .job-overview-details-menu li a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .job-overview-description-body {
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .job-overview-description-body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .job-overview-details-body strong {
+    font-weight: bold;
+  }
+  
+  .job-overview-details-body ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+  
+  .job-overview-details-body ul li {
+    margin: 0 4px 4px 0;
+  }
+  
+  .job-overview-description-body::-webkit-scrollbar-track {
+    background: #fafafa;
+    border-radius: 24px;
+  }
+  
+  .job-overview-description-body::-webkit-scrollbar-thumb {
+    background: #ce1b28;
+    border-radius: 24px;
+  }
+  
+  .job-description-title h1 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    line-height: normal;
+  }
+  
+  .job-overview-details-body h1 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+  }
+  
+  .job-overview-details-body h2 {
+    font-size: 16px;
+    color: #ce1b28;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+  }
+  
+  .job-overview-details-body {
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .job-overview-details-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-overview-details-list h3 {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .job-overview-details-list h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .job-overview-details-menu li.active {
+    border-bottom: 2px solid #ce1b28;
+  }
+  
+  .job-overview-details-menu li.active a {
+    color: #ce1b28;
+  }
+  
