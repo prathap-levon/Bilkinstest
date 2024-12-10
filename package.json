@@ -53,7 +53,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_OPTIONS=--max_old_space_size=4096 npm run build",
+    "build": "node --max-old-space-size=4096 react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
