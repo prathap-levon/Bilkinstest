@@ -3088,7 +3088,7 @@ body {
 }
 
 .searchservice-input {
-  background-image: url("../../Bilkinstest/src/Assets/Img/icons/search-icon.png");
+  background-image: url("../src/Assets/Img/icons/search-icon.png");
   background-repeat: no-repeat;
   background-position: 10px center;
   border: 1px solid #fafafa;
@@ -3097,7 +3097,7 @@ body {
 }
 
 .locationservice-input {
-  background-image: url("../../Bilkinstest/src/Assets/Img/icons/map-icon.png");
+  background-image: url("../src/Assets/Img/icons/search-icon.png");
   background-repeat: no-repeat;
   background-position: 10px center;
   border: 1px solid #fafafa;
