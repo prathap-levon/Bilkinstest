@@ -52,8 +52,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "node --max-old-space-size=4096 react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
